@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+"""Module for reading a text file and printing its contents."""
+
+
 def read_file(filename=""):
     """Reads a UTF-8 text file and prints it to stdout."""
     with open(filename, encoding="utf-8") as f:
